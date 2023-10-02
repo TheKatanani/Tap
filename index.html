@@ -12,187 +12,188 @@
 </head>
 <style>
     * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-/* Icons */
-.icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-}
+    /* Icons */
+    .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: middle;
+    }
 
-.icon-home {
-  fill: currentColor;
-}
+    .icon-home {
+        fill: currentColor;
+    }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
+    body {
+        font-family: "Poppins", sans-serif;
+    }
 
-header {
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  margin: 0 auto;
-}
+    header {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin: 0 auto;
+    }
 
-nav {
-  padding: 30px 0;
-}
+    nav {
+        padding: 30px 0;
+    }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
 
-.icon {
-  margin-right: 5px;
-}
+    .icon {
+        margin-right: 5px;
+    }
 
-nav a {
-  text-decoration: none;
-  font-weight: bold;
-}
+    nav a {
+        text-decoration: none;
+        font-weight: bold;
+    }
 
-/* Style for the main content */
-main {
-  text-align: center;
-}
+    /* Style for the main content */
+    main {
+        text-align: center;
+    }
 
-section.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    section.container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
-  @media (max-width: 768px) {
-    justify-content: center;
-  }
-}
+        @media (max-width: 768px) {
+            justify-content: center;
+        }
+    }
 
-.container {
+    .container {
 
-  padding: 10px;
-  margin: 0 auto;
-  gap: 20px;
+        padding: 10px;
+        margin: 0 auto;
+        gap: 20px;
 
-  /* Small */
-  @media (min-width: 768px) {
-    width: 750px;
-  }
+        /* Small */
+        @media (min-width: 768px) {
+            width: 750px;
+        }
 
-  /* Medium */
-  @media (min-width: 992px) {
-    width: 970px;
-  }
+        /* Medium */
+        @media (min-width: 992px) {
+            width: 970px;
+        }
 
-  /* Large */
-  @media (min-width: 1200px) {
-    width: 1170px;
-  }
+        /* Large */
+        @media (min-width: 1200px) {
+            width: 1170px;
+        }
 
-}
+    }
 
-.content {
-  flex: 1;
-  text-align: left;
-  text-wrap: pretty;
-  max-width: min(600px, 100%);
-}
+    .content {
+        flex: 1;
+        text-align: left;
+        text-wrap: pretty;
+        max-width: min(600px, 100%);
+    }
 
-h3 {
-  font-size: 18px;
-  color: #3bbadb;
-  margin-bottom: 35px;
-}
+    h3 {
+        font-size: 18px;
+        color: #3bbadb;
+        margin-bottom: 35px;
+    }
 
-h1 {
-  font-size: 36px;
-  color: #008aaa;
-  font-style: bold;
-}
+    h1 {
+        font-size: 36px;
+        color: #008aaa;
+        font-style: bold;
+    }
 
-h1 span {
-  color: #d1884f;
-}
+    h1 span {
+        color: #d1884f;
+    }
 
-span {
-  color: #222;
-}
+    span {
+        color: #222;
+    }
 
-.info {
-  color: #222;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  margin-top: 40px;
-}
+    .info {
+        color: #222;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        margin-top: 40px;
+    }
 
-.more {
-  color: #3bbadb;
-  cursor: pointer;
-}
+    .more {
+        color: #3bbadb;
+        cursor: pointer;
+    }
 
-.buttons {
-  margin-top: 90px;
+    .buttons {
+        margin-top: 90px;
 
-}
+    }
 
-button {
-  padding: 6px 20px;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 4px;
-}
+    button {
+        padding: 6px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
 
-button:first-child {
-  margin-right: 10px;
-}
+    button:first-child {
+        margin-right: 10px;
+    }
 
-.hire {
-  background-color: #008aaa;
-  color: #fff;
-  border: none;
-  box-shadow: 0 8px 8px #3bbadb73;
-}
+    .hire {
+        background-color: #008aaa;
+        color: #fff;
+        border: none;
+        box-shadow: 0 8px 8px #3bbadb73;
+    }
 
-.seeProject {
-  border-color: #3bbadb;
-  color: #3bbadb;
-}
+    .seeProject {
+        border-color: #3bbadb;
+        color: #3bbadb;
+    }
 
-.imageArea {
-  width: 300px;
-  position: relative;
-  border-bottom-left-radius: 50%;
-}
+    .imageArea {
+        width: 300px;
+        position: relative;
+        border-bottom-left-radius: 50%;
+    }
 
-.imageArea::before {
-  content: '';
-  position: absolute;
-  top: 15px;
-  left: -15px;
-  z-index: -1;
-  bottom: 0;
-  right: 0;
-  border-bottom-left-radius: 50%;
-  background-color: #3bbadb;
-}
+    .imageArea::before {
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: -15px;
+        z-index: -1;
+        bottom: 0;
+        right: 0;
+        border-bottom-left-radius: 50%;
+        background-color: #3bbadb;
+    }
 
-img {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-  border-bottom-left-radius: 50%;
-  border: 1px solid ;
-}
+    img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px;
+        border-bottom-left-radius: 50%;
+        border: 1px solid;
+    }
 </style>
+
 <body>
     <header class="container">
         <nav>
@@ -223,6 +224,20 @@ img {
             </section>
         </section>
     </main>
+    <script>
+
+        function missingNum(arr) {
+            for (let i = 0; i <= arr.length; i++) {
+                if (!(arr.includes(i))) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+        console.log(missingNum([3, 0, 1])) //2
+        console.log(missingNum([9, 6, 4, 2, 3, 5, 7, 0, 1])) //8
+        console.log(missingNum([0, 1])) //2
+    </script>
 </body>
 
 </html>
